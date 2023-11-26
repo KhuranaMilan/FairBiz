@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="ThemesLay" />
+    <!-- Favicon icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="50x50"
+      href="assets/images/favicon.png"
+    />
+
+    <!-- theme css -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <title>FairBiz</title>
+  </head>
+
+  <body>
+    <!-- preloader section -->
+    <div class="page-loader d-none">
+      <div class="loader">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <!-- page wrapper section -->
+    <div id="wrapper"></div>
+    <!-- Header Part -->
+    <header
+      class="navbar navbar-expand-lg py-lg-0 py-2 px-0 theme-box-shadow header"
+    >
+      <nav class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/images/brand-1-resize.png"
+            class="img-fluid"
+            alt="Brand Logo"
+            title="Brand Logo"
+          />
+        </a>
+        <div class="btn-wrapper">
+          <button
+            class="navbar-toggler theme-bg-secondary border-0 menu-toggle"
+            type="button"
+            data-label="Menu"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="icon-bars"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link nav-effect" href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+            <a class="nav-link nav-effect dropdown-toggle" href="#tournaments" id="navbarDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              DroupDown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html">Menu One</a></li>
+              <li><a class="dropdown-item" href="index-dark.html">Menu Two</a></li>
+            </ul>
+          </li> -->
+            <li class="nav-item">
+              <a class="nav-link nav-effect" href="games.html">Games</a>
+            </li>
+            <!-- <li class="nav-item nav-effect ">
+            <a class="nav-link" href="tournaments.html">Tournaments</a>
+          </li> -->
+            <!-- <li class="nav-item nav-effect ">
+            <a class="nav-link" href="review.html">Review</a>
+          </li> -->
+            <!-- <li class="nav-item nav-effect">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li> -->
+            <li class="ms-1">
+              <a
+                class="rounded-pill btn custom-btn-secondary font-small primary-btn-effect"
+                onclick="goToWhatsapp()"
+                >Join Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Body Part - hero section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-lg-6 position-relative align-self-center"
+            data-aos="fade-up"
+          >
+            <p class="mt-5 mb-3 theme-text-secondary fs-4 fw-bold">
+              Get a 100% bonus additionaly
+            </p>
+            <h1 class="display-4 mb-3 font-black max">
+              Play Online Games & Win Upto 100X
+            </h1>
+            <p class="fs-5 mb-0">
+              Discuss your goals determines success metrics identity solution
+            </p>
+            <div class="group mt-5">
+              <button
+                class="rounded-pill btn custom-btn-primary font-small primary-btn-effect px-5 fs-4"
+                type="submit"
+                onclick="goToWhatsapp()"
+              >
+                Join Now
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 position-relative" data-aos="fade-up">
+            <figure class="mb-0">
+              <img
+                src="assets/images/hero/hero-pic.png"
+                class="img-fluid"
+                alt="hero image"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- games section -->
+    <section class="games py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center">
+              <p
+                class="mt-5 mb-3 theme-text-secondary fs-4 fw-bold"
+                data-aos="fade-up"
+              >
+                100% Origanal Online Sports
+              </p>
+              <h1
+                class="display-5 mb-3 theme-text-primary font-black max"
+                data-aos="fade-up"
+              >
+                Skills Based Games
+              </h1>
+              <p class="mb-0 theme-text-accent-two" data-aos="fade-up">
+                Explore multiple options for maximum fun
+              </p>
+            </div>
+            <div class="row mt-5">
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/cricket.avif"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Cricket
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/football.jpg"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Football
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/ludo.jpg"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">Ludo</h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/game-icon05.png"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Roullette
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/blackjack-resize.jpg"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Black Jack
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/game-icon12.png"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Teen Patti
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/casino.jpg"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Casino
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/carrom.png"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Carrom
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/game-icon11.png"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Trump Cards
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/game-icon08.png"
+                      class="img-fluid rounded-circle"
+                      alt="Slots Game"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Slots Game
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/game-icon02.png"
+                      class="img-fluid rounded-circle"
+                      alt="Rummy"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">Rummy</h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+              <div class="col-12 col-md-6 col-lg-2" data-aos="fade-up">
+                <div
+                  class="game-card theme-border-radius theme-bg-white text-center py-4 mb-4"
+                >
+                  <figure class="mb-0 icon-bg">
+                    <img
+                      src="assets/images/games/chess.png"
+                      class="img-fluid rounded-circle"
+                      alt="Fantasy Games"
+                    />
+                  </figure>
+                  <h3 class="h5 fw-bold theme-text-primary mb-3 mt-3">
+                    Speed Chess
+                  </h3>
+                  <button
+                    onclick="goToWhatsapp()"
+                    class="rounded-pill btn custom-btn-primary primary-btn-effect"
+                    type="submit"
+                  >
+                    Play Now
+                  </button>
+                </div>
+              </div>
+              <!-- repetable -->
+            </div>
+            <div class="row mt-5 mb-lg-5">
+              <div class="col-12 text-center">
+                <button
+                  onclick="window.location.href='games.html';"
+                  class="rounded-pill btn custom-btn-primary primary-btn-effect px-5"
+                  type="submit"
+                >
+                  Play more games
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- how to play experience section -->
+    <section class="howtoplay py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12 text-center">
+            <p
+              class="mt-0 mt-lg-5 mb-3 theme-text-secondary fs-4 fw-bold"
+              data-aos="fade-up"
+            >
+              Just 3 Easy Steps
+            </p>
+            <h2 class="display-5 mb-3 font-black" data-aos="fade-up">
+              Start playing in three easy steps
+            </h2>
+            <p class="mb-0 theme-text-accent-two" data-aos="fade-up">
+              Join millions of players worldwide Make multiple combinations
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5 mb-lg-5">
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0" data-aos="fade-up">
+            <div class="text-center step-card">
+              <figure class="mb-0 image-icon">
+                <img
+                  src="assets/images/icons/how-to-play-icon01.png"
+                  alt="how to play"
+                />
+              </figure>
+              <p class="pt-4 pb-2 mb-0 theme-text-secondary fs-5 fw-bold">
+                Join free
+              </p>
+              <p class="mb-0 px-lg-5">
+                Secure and super easy registration in less than a minutes.
+              </p>
+              <div class="step-corner">
+                <div class="step-arrow fw-bold">01</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0" data-aos="fade-up">
+            <div class="text-center step-card">
+              <figure class="mb-0 image-icon">
+                <img
+                  src="assets/images/icons/how-to-play-icon02.png"
+                  alt="how to play"
+                />
+              </figure>
+              <p class="pt-4 pb-2 mb-0 theme-text-secondary fs-5 fw-bold">
+                Pick your bonus
+              </p>
+              <p class="mb-0 px-lg-5">
+                Choose to play with or without your welcome bonus.
+              </p>
+              <div class="step-corner">
+                <div class="step-arrow fw-bold">02</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0" data-aos="fade-up">
+            <div class="text-center step-card">
+              <figure class="mb-0 image-icon">
+                <img
+                  src="assets/images/icons/how-to-play-icon03.png"
+                  alt="how to play"
+                />
+              </figure>
+              <p class="pt-4 pb-2 mb-0 theme-text-secondary fs-5 fw-bold">
+                Join Contests
+              </p>
+              <p class="mb-0 px-lg-5">
+                Start playing the best live and slot games.
+              </p>
+              <div class="step-corner">
+                <div class="step-arrow fw-bold">03</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-5 text-center" data-aos="fade-up">
+            <button
+              class="rounded-pill btn custom-btn-secondary secondary-btn-effect px-5"
+              onclick="goToWhatsapp()"
+              type="submit"
+            >
+              Play now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features section -->
+    <section class="features py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 text-center">
+            <p
+              class="mt-5 mb-3 theme-text-secondary fs-4 fw-bold"
+              data-aos="fade-up"
+            >
+              Leading online gaming platform
+            </p>
+            <h2
+              class="display-5 theme-text-primary mb-3 font-black max"
+              data-aos="fade-up"
+            >
+              Why Play Money Winning Games
+            </h2>
+            <p class="mb-0 theme-text-accent-two" data-aos="fade-up">
+              Fantasy games are all about creating your own team and making your
+              own winning strategy. The games will be running round the clock
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5 mb-lg-5" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="item">
+              <div
+                class="theme-border-radius theme-box-shadow mb-4 py-5 text-center"
+              >
+                <figure class="mb-3 icon-bg">
+                  <img
+                    src="assets/images/feature/features-icon01.png"
+                    class="img-fluid"
+                    alt="Plateform Features"
+                  />
+                </figure>
+                <h3 class="fs-5 fw-bold theme-text-primary">
+                  Instant Withdrawals
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="item">
+              <div
+                class="theme-border-radius theme-box-shadow mb-4 py-5 text-center"
+              >
+                <figure class="mb-3 icon-bg">
+                  <img
+                    src="assets/images/feature/features-icon02.png"
+                    class="img-fluid"
+                    alt="Plateform Features"
+                  />
+                </figure>
+                <h3 class="fs-5 fw-bold theme-text-primary">100% Secure</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="item">
+              <div
+                class="theme-border-radius theme-box-shadow mb-4 py-5 text-center"
+              >
+                <figure class="mb-3 icon-bg">
+                  <img
+                    src="assets/images/feature/features-icon03.png"
+                    class="img-fluid"
+                    alt="Plateform Features"
+                  />
+                </figure>
+                <h3 class="fs-5 fw-bold theme-text-primary">Super Cashback</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="item">
+              <div
+                class="theme-border-radius theme-box-shadow mb-4 py-5 text-center"
+              >
+                <figure class="mb-3 icon-bg">
+                  <img
+                    src="assets/images/feature/features-icon04.png"
+                    class="img-fluid"
+                    alt="Plateform Features"
+                  />
+                </figure>
+                <h3 class="fs-5 fw-bold theme-text-primary">24/7 Games</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- video demo section -->
+    <!-- <section class="demo py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 text-center">
+          <p class="mt-3 mb-3 theme-text-secondary fs-4 fw-bold" data-aos="fade-up">Money winning app to play
+            online cash games</p>
+          <h2 class="display-5 theme-text-primary mb-3 font-black max" data-aos="fade-up">Download money winning app
+          </h2>
+          <p class="mb-0 theme-text-accent-two" data-aos="fade-up">CasinoOn most trusted and licensed online casino. We
+            offer quick payments and thousands of games, including all card games like Teen Patti, Andar Bahar, Roulette
+            and many more!</p>
+        </div>
+        <div class="col-12 col-lg-12 my-5">
+          <div class="group custom-button">
+            <div class="d-flex align-items-center position-relative">
+              <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="video-icon video-icon2 video_model">
+                <i class="bi bi-play"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+    <!-- Footer Part -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="pt-5 text-center">
+              <h3 class="h5 fw-bold mb-4" data-aos="fade-up">Quick Links</h3>
+              <ul class="link-list" data-aos="fade-up">
+                <li><a href="#" class="footer-link-effect">Home</a></li>
+                <li>
+                  <a href="games.html" class="footer-link-effect">Games</a>
+                </li>
+                <li>
+                  <a onclick="goToWhatsapp()" class="footer-link-effect"
+                    >Play Now</a
+                  >
+                </li>
+              </ul>
+              <h3 class="mt-5 h5 fw-bold mb-4" data-aos="fade-up">
+                Connect with us
+              </h3>
+              <div
+                class="d-flex justify-content-center social mt-3"
+                data-aos="fade-up"
+              >
+                <img
+                  class="cursor-pointer"
+                  onclick="goToWhatsapp()"
+                  src="/html/assets/svg/WhatsAppButtonGreenLarge.svg"
+                  alt="whatsapp"
+                />
+              </div>
+              <!-- about company end -->
+              <a href="index.html">
+                <img
+                  src="assets/images/brand-1-resize.png"
+                  class="img-fluid mt-5 mb-4"
+                  alt="Brand light"
+                  data-aos="fade-up"
+                />
+              </a>
+              <p class="mb-0 font-small" data-aos="fade-up">
+                Bearing a simple yet catchy concept of earning money via the
+                best fantasy game Apps while watching your favourite sports
+              </p>
+              <p class="mb-0 font-small">
+                &copy; Copyright 2023 by <a href="#">FairBiz</a>, All rights
+                reserved.
+              </p>
+              <span class="font-extra-small"
+                >This game involves an element of financial risk and may be
+                addictive. Please play responsibly and at your own risk</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#wrapper" data-type="section-switch" class="scrollup back-top"
+        ><i class="bi bi-chevron-double-up"></i
+      ></a>
+    </footer>
+
+    <!-- js file attached -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+      function goToWhatsapp() {
+        var url =
+          "https://wa.me/+447424524837?text=Hello%20Sir,%20I%20Need%20Fairbet.biz%20ID%20I%20WANT%20TO%20DEPOSITE";
+        const newTab = window.open(url, "_blank");
+        newTab.focus();
+      }
+    </script>
+  </body>
+</html>
