@@ -64,7 +64,8 @@ input::placeholder {
   position: relative;
   transition: transform 0.3s ease-in, background-color 0.2s ease;
 }
-.btn-wrapper .menu-toggle .icon-bars::before, .btn-wrapper .menu-toggle .icon-bars::after {
+.btn-wrapper .menu-toggle .icon-bars::before,
+.btn-wrapper .menu-toggle .icon-bars::after {
   display: block;
   width: 2rem;
   height: 2px;
@@ -72,7 +73,8 @@ input::placeholder {
   content: "";
   position: absolute;
   left: 0;
-  transition: top 0.3s 0.3s ease-in, transform 0.3s ease-in, background-color 0.2s ease;
+  transition: top 0.3s 0.3s ease-in, transform 0.3s ease-in,
+    background-color 0.2s ease;
 }
 .btn-wrapper .menu-toggle .icon-bars::before {
   top: 0.5em;
@@ -85,12 +87,14 @@ input::placeholder {
   transform: rotate3d(0, 0, 1, 135deg);
 }
 .btn-wrapper .menu-toggle:active .icon-bars::before {
-  transition: top 0.2s ease-in, transform 0.3s 0.2s ease-in, background-color 0.2s ease;
+  transition: top 0.2s ease-in, transform 0.3s 0.2s ease-in,
+    background-color 0.2s ease;
   transform: rotate3d(0, 0, 1, 90deg);
   top: 0;
 }
 .btn-wrapper .menu-toggle:active .icon-bars::after {
-  transition: top 0.2s ease-in, transform 0.3s 0.2s ease-in, background-color 0.2s ease;
+  transition: top 0.2s ease-in, transform 0.3s 0.2s ease-in,
+    background-color 0.2s ease;
   transform: rotate3d(0, 0, 1, 90deg);
   top: 0;
 }
@@ -100,12 +104,14 @@ input::placeholder {
   transform: rotate3d(0, 0, 1, 135deg);
 }
 .menu--is-revealed .menu-toggle .icon-bars::before {
-  transition: top 0.2s ease-in, transform 0.3s 0.2s ease-in, background-color 0.2s ease;
+  transition: top 0.2s ease-in, transform 0.3s 0.2s ease-in,
+    background-color 0.2s ease;
   transform: rotate3d(0, 0, 1, 90deg);
   top: 0;
 }
 .menu--is-revealed .menu-toggle .icon-bars::after {
-  transition: top 0.2s ease-in, transform 0.3s 0.2s ease-in, background-color 0.2s ease;
+  transition: top 0.2s ease-in, transform 0.3s 0.2s ease-in,
+    background-color 0.2s ease;
   transform: rotate3d(0, 0, 1, 90deg);
   top: 0;
 }
@@ -154,11 +160,11 @@ a:hover {
 }
 
 .theme-bg-accent-two {
-  background-color: #878A9B;
+  background-color: #878a9b;
 }
 
 .theme-bg-accent-three {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .theme-bg-white {
@@ -187,11 +193,11 @@ a:hover {
 }
 
 .theme-text-accent-two {
-  color: #878A9B;
+  color: #878a9b;
 }
 
 .theme-text-accent-three {
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 /*-- shadow css --*/
@@ -374,7 +380,7 @@ a:hover {
 }
 .page-breadcrumb .list li {
   display: inline-block;
-  color: #878A9B;
+  color: #878a9b;
   position: relative;
   padding-right: 16px;
   padding-left: 16px;
@@ -609,11 +615,11 @@ a:hover {
   margin-top: 6rem;
 }
 .games .frame img {
-  max-width: unset;
+  max-width: 250px;
 }
 @media screen and (max-width: 992px) {
   .games .frame img {
-    max-width: 100%;
+    max-width: 250px;
   }
 }
 .games .game-card {
@@ -794,7 +800,7 @@ a:hover {
 }
 
 .faq {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 .faq .accordion-item {
   border: 0;
@@ -941,10 +947,12 @@ a:hover {
   display: inline-block;
   transition: all 0.5s ease-out;
 }
-.scrollup i:hover, .scrollup i:focus {
+.scrollup i:hover,
+.scrollup i:focus {
   animation: toBottomFromTop 0.5s forwards;
 }
-.scrollup:hover, .scrollup:focus {
+.scrollup:hover,
+.scrollup:focus {
   color: #101646;
 }
 .scrollup.back-top {
@@ -964,4 +972,4 @@ a:hover {
   80% {
     opacity: 1;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
